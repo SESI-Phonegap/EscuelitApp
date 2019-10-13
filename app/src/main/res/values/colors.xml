@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="text_primary_dark">#de000000</color> <!-- 87% -->
+    <color name="text_secondary_dark">#8a000000</color> <!-- 54% -->
+    <color name="text_tertiary_dark">#61000000</color> <!-- 38% -->
+    <color name="text_primary_light">#ffffffff</color>
+
+    <color name="rojo">#FF2D00</color>
+    <color name="azul">#798FFF</color>
+    <color name="amarillo">#F2FF74</color>
+    <color name="verde">#40CD59</color>
+    <color name="negro">#000000</color>
+    <color name="morado">#C11BFF</color>
+</resources>
