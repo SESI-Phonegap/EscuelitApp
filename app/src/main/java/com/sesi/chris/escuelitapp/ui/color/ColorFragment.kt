@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import android.speech.tts.TextToSpeech
+import android.widget.ImageSwitcher
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -38,6 +39,7 @@ class ColorFragment : Fragment() {
 
         setupRecyclerView()
         renderColors()
+        var image:ImageSwitcher
         return root
     }
 
