@@ -42,8 +42,8 @@ class ColorAdapter : RecyclerView.Adapter<ColorAdapter.ColorViewHolder>() {
     }
 
     class ColorViewHolder(internal var itemViewed: View) : RecyclerView.ViewHolder(itemViewed) {
-        internal var tvColorNombre: TextView = itemViewed.findViewById(R.id.txt_anime_name)
-        internal var imgColor: ImageView = itemViewed.findViewById(R.id.img_view_anime_image)
+        internal var tvColorNombre: TextView = itemViewed.findViewById(R.id.txt_name)
+        internal var imgColor: ImageView = itemViewed.findViewById(R.id.img_view_image)
         internal var color: Color? = null
     }
 }
